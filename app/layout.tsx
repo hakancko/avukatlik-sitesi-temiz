@@ -30,11 +30,11 @@ export const metadata: Metadata = {
     initialScale: 1,
     maximumScale: 5,
     userScalable: true,
-    themeColor: [
-      { media: '(prefers-color-scheme: light)', color: '#06b6d4' },
-      { media: '(prefers-color-scheme: dark)', color: '#0891b2' },
-    ],
   },
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#06b6d4' },
+    { media: '(prefers-color-scheme: dark)', color: '#0891b2' },
+  ],
   keywords: [
     "İzmir avukat", "CTİ avukatlık", "Bayraklı avukat", "Menderes avukat",
     "şirketler hukuku avukatı İzmir", "gayrimenkul avukatı İzmir", "sağlık hukuku avukatı İzmir",
