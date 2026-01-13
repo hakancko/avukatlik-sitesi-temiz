@@ -74,7 +74,7 @@ export default function Header() {
               <div className="hidden xl:flex items-center gap-1.5 whitespace-nowrap">
                 <span className="text-xl font-serif font-bold text-cyan-900">C.T.İ.</span>
                 <span className="text-xl font-serif font-bold text-cyan-900">AVUKATLIK</span>
-                <span className="text-xl font-serif font-bold text-cyan-900">&</span>
+                <span className="text-xl font-sans font-bold text-cyan-900">&</span>
                 <span className="text-xl font-serif font-bold text-cyan-900">HUKUK DANIŞMANLIĞI</span>
               </div>
               <span className="hidden xl:block text-xs text-cyan-600 font-medium mt-0.5 whitespace-nowrap">
@@ -86,7 +86,7 @@ export default function Header() {
                 <div className="flex items-center gap-1 whitespace-nowrap">
                   <span className="text-sm font-serif font-bold text-cyan-900">C.T.İ.</span>
                   <span className="text-sm font-serif font-bold text-cyan-900">AVUKATLIK</span>
-                  <span className="text-sm font-serif font-bold text-cyan-900">&</span>
+                  <span className="text-sm font-sans font-bold text-cyan-900">&</span>
                 </div>
                 <div className="flex items-center gap-1 whitespace-nowrap">
                   <span className="text-sm font-serif font-bold text-cyan-900">HUKUK DANIŞMANLIĞI</span>
@@ -98,7 +98,7 @@ export default function Header() {
               
               {/* Mobile: Kompakt versiyon */}
               <div className="flex md:hidden flex-col leading-tight">
-                <span className="text-xs font-serif font-bold text-cyan-900">C.T.İ. AVUKATLIK &</span>
+                <span className="text-xs font-serif font-bold text-cyan-900">C.T.İ. AVUKATLIK </span><span className="text-xs font-sans font-bold text-cyan-900">&</span>
                 <span className="text-xs font-serif font-bold text-cyan-900">HUKUK DANIŞMANLIĞI</span>
                 <span className="text-[9px] text-cyan-600 font-medium tracking-tight mt-0.5 leading-tight">
                   <span className="block">Uzm. Arb. Av. Ferhat CANBEDİR <span className="text-teal-500">•</span> Av. Enes TUMAN</span>

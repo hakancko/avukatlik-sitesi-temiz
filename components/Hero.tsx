@@ -44,14 +44,14 @@ export default function Hero() {
               </div>
             </div>
             <div className="max-w-3xl mx-auto">
-              <blockquote className="text-base sm:text-lg md:text-xl lg:text-2xl font-serif font-bold text-white leading-relaxed mb-3 sm:mb-4">
+              <blockquote className="text-base sm:text-lg md:text-xl lg:text-2xl font-serif font-bold text-white leading-relaxed mb-3 sm:mb-4 italic">
                 &quot;Avukatlar topluluğu en mükemmel, en ziyade itibara lâyık öyle şerefli bir insanlar birliğidir ki mutat doğruluğu az görür ve tatbikatta kusursuzluk derecesine kadar varırlar. Eğer fazilet sosyete tarafından kovulsaydı, son sığınağını onların yanında bulurdu.&quot;
               </blockquote>
-              <p className="text-base sm:text-lg text-white font-semibold mb-3 sm:mb-4 text-right pr-4 sm:pr-6 md:pr-8">
+              <p className="text-base sm:text-lg text-white font-semibold italic mb-3 sm:mb-4 text-right pr-4 sm:pr-6 md:pr-8">
                 — Savcı Bellart
               </p>
             </div>
-            <p className="text-sm sm:text-base text-gray-200 italic">
+            <p className="text-sm sm:text-base text-gray-200">
               İzmir&apos;de profesyonel avukatlık ve hukuk danışmanlığı hizmetleri
             </p>
           </div>

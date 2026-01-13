@@ -82,7 +82,7 @@ export default function Footer() {
                   <div className="flex flex-wrap items-center justify-center sm:justify-start gap-0.5">
                     <span className="text-sm sm:text-sm font-serif font-bold text-white">C.T.İ.</span>
                     <span className="text-sm sm:text-sm font-serif font-bold text-white">AVUKATLIK</span>
-                    <span className="text-sm sm:text-sm font-serif font-bold text-white">&</span>
+                    <span className="text-sm sm:text-sm font-sans font-bold text-white">&</span>
                     <span className="text-sm sm:text-sm font-serif font-bold text-white">HUKUK</span>
                     <span className="text-sm sm:text-sm font-serif font-bold text-white">DANIŞMANLIĞI</span>
                   </div>
@@ -182,7 +182,7 @@ export default function Footer() {
             <div className="flex items-center gap-1.5">
               <span className="text-sm font-serif font-bold text-white">C.T.İ.</span>
               <span className="text-sm font-serif font-bold text-white">AVUKATLIK</span>
-              <span className="text-sm font-serif font-bold text-white">&</span>
+              <span className="text-sm font-sans font-bold text-white">&</span>
               <span className="text-sm font-serif font-bold text-white">HUKUK DANIŞMANLIĞI</span>
             </div>
             <p className="text-center text-xs text-gray-400">

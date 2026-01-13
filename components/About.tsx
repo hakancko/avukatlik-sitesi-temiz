@@ -39,7 +39,7 @@ export default function About() {
             {/* Text Content */}
             <div className="space-y-6">
               <p className="text-gray-700 leading-relaxed text-lg">
-                <span className="font-serif text-2xl text-cyan-600">CTİ Avukatlık & Hukuk Danışmanlığı</span> ofisi olarak, 
+                <span className="font-serif text-2xl text-cyan-600">CTİ Avukatlık </span><span className="font-sans text-2xl text-cyan-600">&</span><span className="font-serif text-2xl text-cyan-600"> Hukuk Danışmanlığı</span> ofisi olarak, 
                 müvekkillerimize en kaliteli hukuki hizmeti sunmayı ilke edinerek çalışmalarımızı sürdürmekteyiz.
               </p>
               <p className="text-gray-700 leading-relaxed">
