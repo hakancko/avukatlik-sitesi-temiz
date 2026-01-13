@@ -47,7 +47,7 @@ export default function Footer() {
 
   const services = [
     { name: "Şirketler Hukuku", href: "/hizmetler/sirketler-hukuku" },
-    { name: "Gayrimenkul Hukuku", href: "/hizmetler/gayrimenkul-hukuku" },
+    { name: "Gayrimenkul Uyuşmazlıkları", href: "/hizmetler/gayrimenkul-hukuku" },
     { name: "Sağlık Hukuku", href: "/hizmetler/saglik-hukuku" },
     { name: "Aile Hukuku", href: "/hizmetler/aile-hukuku" },
     { name: "Ceza Hukuku", href: "/hizmetler/ceza-hukuku" },
@@ -119,9 +119,9 @@ export default function Footer() {
           </div>
 
           {/* Services */}
-          <div className="md:col-span-2 lg:col-span-1">
+          <div>
             <h4 className="text-white font-bold mb-4 text-base">Uzmanlık Alanları</h4>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-2">
+            <ul className="space-y-2">
               {services.map((service) => (
                 <li key={service.name}>
                   <Link 

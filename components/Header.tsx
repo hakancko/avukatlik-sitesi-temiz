@@ -69,7 +69,7 @@ export default function Header() {
                 priority
               />
             </div>
-            <div className="flex flex-col flex-1">
+            <div className="flex flex-col flex-1 min-w-0">
               {/* Desktop: Tam versiyon (büyük ekran) */}
               <div className="hidden xl:flex items-center gap-1.5 whitespace-nowrap">
                 <span className="text-xl font-serif font-bold text-cyan-900">C.T.İ.</span>
@@ -81,14 +81,12 @@ export default function Header() {
                 Uzm. Arb. Av. Ferhat CANBEDİR <span className="text-teal-500">•</span> Av. Enes TUMAN <span className="text-teal-500">•</span> Av. Su Öykü İNCEOĞULLARI
               </span>
               
-              {/* Tablet/Laptop: Orta versiyon - 2 satır */}
+              {/* Tablet/Laptop: Orta versiyon - tek satır */}
               <div className="hidden md:flex xl:hidden flex-col leading-tight">
                 <div className="flex items-center gap-1 whitespace-nowrap">
                   <span className="text-sm font-serif font-bold text-cyan-900">C.T.İ.</span>
                   <span className="text-sm font-serif font-bold text-cyan-900">AVUKATLIK</span>
                   <span className="text-sm font-sans font-bold text-cyan-900">&</span>
-                </div>
-                <div className="flex items-center gap-1 whitespace-nowrap">
                   <span className="text-sm font-serif font-bold text-cyan-900">HUKUK DANIŞMANLIĞI</span>
                 </div>
                 <span className="text-[10px] text-cyan-600 font-medium mt-0.5 leading-tight whitespace-nowrap">
@@ -96,11 +94,15 @@ export default function Header() {
                 </span>
               </div>
               
-              {/* Mobile: Kompakt versiyon */}
-              <div className="flex md:hidden flex-col leading-tight">
-                <span className="text-xs font-serif font-bold text-cyan-900">C.T.İ. AVUKATLIK </span><span className="text-xs font-sans font-bold text-cyan-900">&</span>
-                <span className="text-xs font-serif font-bold text-cyan-900">HUKUK DANIŞMANLIĞI</span>
-                <span className="text-[9px] text-cyan-600 font-medium tracking-tight mt-0.5 leading-tight">
+              {/* Mobile: Kompakt versiyon - tek satır */}
+              <div className="flex md:hidden flex-col leading-tight min-w-0">
+                <div className="flex items-center gap-0.5 sm:gap-1 flex-wrap">
+                  <span className="text-[10px] sm:text-xs font-serif font-bold text-cyan-900 whitespace-nowrap">C.T.İ.</span>
+                  <span className="text-[10px] sm:text-xs font-serif font-bold text-cyan-900 whitespace-nowrap">AVUKATLIK</span>
+                  <span className="text-[10px] sm:text-xs font-sans font-bold text-cyan-900 whitespace-nowrap">&</span>
+                  <span className="text-[10px] sm:text-xs font-serif font-bold text-cyan-900 whitespace-nowrap">HUKUK DANIŞMANLIĞI</span>
+                </div>
+                <span className="text-[8px] sm:text-[9px] text-cyan-600 font-medium tracking-tight mt-0.5 leading-tight">
                   <span className="block">Uzm. Arb. Av. Ferhat CANBEDİR <span className="text-teal-500">•</span> Av. Enes TUMAN</span>
                   <span className="block">Av. Su Öykü İNCEOĞULLARI</span>
                 </span>
@@ -109,7 +111,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-2 lg:space-x-4 xl:space-x-8">
+          <div className="hidden lg:flex items-center space-x-2 xl:space-x-4 2xl:space-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.name}
@@ -117,8 +119,8 @@ export default function Header() {
                 onClick={(e) => handleNavClick(e, item.href)}
                 className={`${
                   item.special
-                    ? "bg-teal-500 text-white px-3 lg:px-4 xl:px-5 py-2 xl:py-2.5 rounded-full hover:bg-cyan-600 font-bold shadow-md hover:shadow-lg text-[11px] lg:text-xs xl:text-sm"
-                    : "text-cyan-700 hover:text-cyan-900 font-semibold text-[11px] lg:text-xs xl:text-sm"
+                    ? "bg-teal-500 text-white px-3 xl:px-4 2xl:px-5 py-2 xl:py-2.5 rounded-full hover:bg-cyan-600 font-bold shadow-md hover:shadow-lg text-xs xl:text-sm"
+                    : "text-cyan-700 hover:text-cyan-900 font-semibold text-xs xl:text-sm"
                 } transition-all whitespace-nowrap`}
               >
                 {item.name}
@@ -126,10 +128,10 @@ export default function Header() {
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile/Tablet Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors flex-shrink-0"
+            className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors flex-shrink-0"
             aria-label="Menu"
           >
             {isMenuOpen ? (
@@ -140,9 +142,9 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Mobile/Tablet Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200">
+          <div className="lg:hidden py-4 border-t border-gray-200">
             <div className="flex flex-col space-y-4">
               {navItems.map((item) => (
                 <Link
