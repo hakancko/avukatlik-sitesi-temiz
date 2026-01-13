@@ -171,7 +171,7 @@ const servicesData: Record<string, {
     seoKeywords: ["iş avukatı izmir", "işe iade davası", "kıdem tazminatı", "iş kazası", "fazla mesai", "işçi alacakları", "ihbar tazminatı", "iş avukatı", "meslek hastalığı", "toplu iş sözleşmesi", "sendika hakları"]
   },
   "idare-hukuku": {
-    title: "İdare Hukuku",
+    title: "İdare Hukukunda İptal ve Tam Yargı Davaları",
     icon: "🏛️",
     description: "İzmir idare avukatı. İdari davalar, belediye işlemleri, imar davaları ve kamu kurumu uyuşmazlıklarında uzman hukuki destek. İdari para cezalarına itiraz.",
     content: `
@@ -186,6 +186,174 @@ const servicesData: Record<string, {
       <p>İdare hukuku danışmanlığı hizmetimizle, idare hukuku ile ilgili tüm konularda size yardımcı oluyoruz. İzmir idare avukatı olarak, idare hukuku konularında deneyimli ekibimizle hizmetinizdeyiz.</p>
     `,
     seoKeywords: ["idare avukatı izmir", "idari dava", "belediye avukatı", "imar davası", "idari para cezası", "kamu ihale", "idari itiraz", "idare avukatı"]
+  },
+  "sirketler-hukuku": {
+    title: "Şirketler Hukuku Uygulamalarından Kaynaklanan Uyuşmazlıklar",
+    icon: "💼",
+    description: "İzmir şirketler hukuku avukatı. Şirket kuruluşu, ortaklık anlaşmaları, şirket birleşmeleri, devir işlemleri ve şirketler hukukundan kaynaklanan uyuşmazlıklar.",
+    content: `
+      <p>Şirketler hukuku, iş dünyasının temelini oluşturan hukuk dalıdır. İzmir'de şirketler hukuku avukatı olarak, şirket kuruluşu, ortaklık anlaşmaları, şirket birleşmeleri, devir işlemleri ve şirketler hukukundan kaynaklanan tüm uyuşmazlıklarda profesyonel hukuki destek sunuyoruz.</p>
+      
+      <p>Şirket kuruluşu ve şirket türleri danışmanlığı, iş hayatına başlamak isteyenler için kritik öneme sahiptir. Limited şirket, anonim şirket, kollektif şirket, komandit şirket gibi farklı şirket türleri bulunmaktadır. Şirketler hukuku avukatı olarak, size en uygun şirket türünü belirleyerek, şirket kuruluşu sürecinde size yardımcı oluyoruz.</p>
+      
+      <p>Ortaklık anlaşmaları ve şirket sözleşmeleri, şirketlerin işleyişini düzenleyen temel belgelerdir. Şirketler hukuku avukatı olarak, ortaklık anlaşmalarını hazırlayarak ve inceleyerek, müvekkillerimizin haklarını koruyoruz. Şirket birleşme ve devir işlemleri de şirketler hukukunun önemli konularındandır.</p>
+      
+      <p>Şirket yönetimi ve yönetim kurulu uyuşmazlıkları, şirketlerin işleyişini etkileyen önemli konulardır. Şirketler hukuku avukatı olarak, yönetim kurulu kararları, genel kurul toplantıları ve şirket yönetimi konularında profesyonel destek sağlıyoruz. Ortaklar arası uyuşmazlıklar ve azınlık hakları da şirketler hukukunun önemli konularındandır.</p>
+      
+      <p>Şirket tasfiyesi ve iflas süreçleri, şirketlerin sona ermesi durumunda ortaya çıkar. Şirketler hukuku avukatı olarak, şirket tasfiyesi ve iflas süreçlerinde müvekkillerimizin haklarını koruyoruz. Şirketler hukuku danışmanlığı hizmetimizle, şirketler hukuku ile ilgili tüm konularda size yardımcı oluyoruz.</p>
+      
+      <p>İzmir şirketler hukuku avukatı olarak, şirketler hukuku konularında deneyimli ekibimizle, şirket kuruluşundan tasfiyesine kadar tüm süreçlerde yanınızdayız.</p>
+    `,
+    seoKeywords: ["şirketler hukuku avukatı izmir", "şirket kuruluşu", "ortaklık anlaşması", "şirket birleşme", "şirket devir", "şirket yönetimi", "şirket tasfiyesi", "şirketler hukuku avukatı"]
+  },
+  "saglik-hukuku": {
+    title: "Sağlık Hukukundan Kaynaklanan Uyuşmazlıklar",
+    icon: "❤️",
+    description: "İzmir sağlık hukuku avukatı. Tıbbi malpraktis davaları, hasta hakları, sağlık kuruluşları ile ilgili uyuşmazlıklar ve sağlık hukuku danışmanlığı.",
+    content: `
+      <p>Sağlık hukuku, sağlık hizmetleri ve hasta hakları ile ilgili hukuk dalıdır. İzmir'de sağlık hukuku avukatı olarak, tıbbi malpraktis davaları, hasta hakları, sağlık kuruluşları ile ilgili uyuşmazlıklar ve sağlık hukuku danışmanlığı konularında profesyonel hukuki destek sunuyoruz.</p>
+      
+      <p>Tıbbi malpraktis davaları, sağlık hizmeti sunanların hukuka aykırı davranışları nedeniyle açılan tazminat davalarıdır. Sağlık hukuku avukatı olarak, tıbbi malpraktis davalarında müvekkillerimizin haklarını koruyoruz. Tıbbi malpraktis durumunda, hasta veya yakınları, sağlık kuruluşu ve sağlık personeline karşı tazminat davası açabilir.</p>
+      
+      <p>Hasta hakları ve hasta hakları ihlalleri, sağlık hizmetleri sırasında hastaların korunması için önemlidir. Sağlık hukuku avukatı olarak, hasta hakları ihlalleri durumunda müvekkillerimizin haklarını koruyoruz. Bilgilendirilmiş onam, mahremiyet hakkı, tedavi reddi hakkı gibi hasta hakları konularında profesyonel destek sağlıyoruz.</p>
+      
+      <p>Sağlık kuruluşları ile uyuşmazlıklar, hastaneler, özel sağlık kuruluşları ve sağlık personeli ile ilgili uyuşmazlıkları içerir. Sağlık hukuku avukatı olarak, sağlık kuruluşları ile uyuşmazlıkların çözümünde müvekkillerimizin haklarını koruyoruz. Sağlık hizmeti sözleşmeleri ve sağlık hizmeti fiyatlandırması da sağlık hukukunun önemli konularındandır.</p>
+      
+      <p>Sağlık hukuku danışmanlığı hizmetimizle, sağlık hukuku ile ilgili tüm konularda size yardımcı oluyoruz. İzmir sağlık hukuku avukatı olarak, sağlık hukuku konularında deneyimli ekibimizle, hasta haklarını koruyarak adil çözümler üretiyoruz.</p>
+    `,
+    seoKeywords: ["sağlık hukuku avukatı izmir", "tıbbi malpraktis", "hasta hakları", "sağlık kuruluşu uyuşmazlığı", "tıbbi hata", "sağlık hukuku danışmanlığı", "sağlık hukuku avukatı"]
+  },
+  "icra-iflas-hukuku": {
+    title: "İcra ve İflas Hukuku Alanındaki Uyuşmazlıklar",
+    icon: "⚖️",
+    description: "İzmir icra ve iflas avukatı. İcra takipleri, iflas davaları, konkordato, haciz işlemleri ve icra-iflas hukuku alanındaki uyuşmazlıklar.",
+    content: `
+      <p>İcra ve iflas hukuku, alacakların tahsil edilmesi ve borçluların iflas süreçlerini düzenleyen hukuk dalıdır. İzmir'de icra ve iflas avukatı olarak, icra takipleri, iflas davaları, konkordato, haciz işlemleri ve icra-iflas hukuku alanındaki tüm uyuşmazlıklarda profesyonel hukuki destek sunuyoruz.</p>
+      
+      <p>İcra takipleri ve icra davaları, alacakların tahsil edilmesi için açılan takipler ve davalardır. İcra ve iflas avukatı olarak, icra takiplerinde müvekkillerimizin haklarını koruyoruz. İcra takiplerinde, alacaklı ve borçlu arasındaki uyuşmazlıkların çözümü için gerekli hukuki süreçleri yürütüyoruz.</p>
+      
+      <p>İflas davaları ve iflas süreçleri, borçluların iflas etmesi durumunda ortaya çıkar. İcra ve iflas avukatı olarak, iflas davalarında hem alacaklıların hem de borçluların haklarını koruyoruz. İflas süreçlerinde, alacaklıların alacaklarının tahsil edilmesi ve borçluların haklarının korunması için profesyonel destek sağlıyoruz.</p>
+      
+      <p>Konkordato süreçleri, borçluların iflas etmeden borçlarını ödemesi için yapılan anlaşmalardır. İcra ve iflas avukatı olarak, konkordato süreçlerinde müvekkillerimizin haklarını koruyoruz. Konkordato süreçlerinde, borçluların ve alacaklıların haklarını dengeli bir şekilde koruyarak, adil bir çözüm buluyoruz.</p>
+      
+      <p>Haciz işlemleri ve haciz itirazları, icra takiplerinde borçluların mallarının haczedilmesi süreçlerini içerir. İcra ve iflas avukatı olarak, haciz işlemlerinde ve haciz itirazlarında müvekkillerimizin haklarını koruyoruz. İcra ve iflas hukuku danışmanlığı hizmetimizle, icra ve iflas hukuku ile ilgili tüm konularda size yardımcı oluyoruz.</p>
+      
+      <p>İzmir icra ve iflas avukatı olarak, icra ve iflas hukuku konularında deneyimli ekibimizle, alacakların tahsil edilmesinden iflas süreçlerine kadar tüm konularda yanınızdayız.</p>
+    `,
+    seoKeywords: ["icra avukatı izmir", "iflas avukatı izmir", "icra takibi", "iflas davası", "konkordato", "haciz işlemi", "icra itirazı", "icra ve iflas avukatı"]
+  },
+  "tuketici-hukuku": {
+    title: "Tüketici Hukuku Alanındaki Uyuşmazlıklar",
+    icon: "🛒",
+    description: "İzmir tüketici hukuku avukatı. Tüketici hakları, ayıplı mal, garanti, taksitli satış, mesafeli satış ve tüketici hukukundan kaynaklanan uyuşmazlıklar.",
+    content: `
+      <p>Tüketici hukuku, tüketicilerin haklarını korumak ve tüketici-satıcı ilişkilerini düzenlemek için kritik öneme sahiptir. İzmir'de tüketici hukuku avukatı olarak, tüketici hakları, ayıplı mal, garanti, taksitli satış, mesafeli satış ve tüketici hukukundan kaynaklanan tüm uyuşmazlıklarda profesyonel hukuki destek sunuyoruz.</p>
+      
+      <p>Tüketici hakları ve tüketici hakları ihlalleri, tüketicilerin korunması için önemlidir. Tüketici hukuku avukatı olarak, tüketici hakları ihlalleri durumunda müvekkillerimizin haklarını koruyoruz. Bilgilendirme hakkı, cayma hakkı, ayıplı maldan dönme hakkı gibi tüketici hakları konularında profesyonel destek sağlıyoruz.</p>
+      
+      <p>Ayıplı mal ve garanti uyuşmazlıkları, tüketici hukukunun en önemli konularındandır. Tüketici hukuku avukatı olarak, ayıplı mal durumunda müvekkillerimizin haklarını koruyoruz. Ayıplı maldan dönme, ayıpsız teslim, indirim isteme ve tazminat talebi gibi konularda profesyonel destek sağlıyoruz.</p>
+      
+      <p>Taksitli satış ve mesafeli satış uyuşmazlıkları, tüketici hukukunun önemli konularındandır. Tüketici hukuku avukatı olarak, taksitli satış ve mesafeli satış uyuşmazlıklarında müvekkillerimizin haklarını koruyoruz. Cayma hakkı, iade hakkı ve taksit iptali gibi konularda profesyonel destek sağlıyoruz.</p>
+      
+      <p>Tüketici hakem heyeti ve tüketici mahkemeleri, tüketici uyuşmazlıklarının çözümü için önemli başvuru yollarıdır. Tüketici hukuku avukatı olarak, tüketici hakem heyeti ve tüketici mahkemelerinde müvekkillerimizin haklarını koruyoruz. Tüketici hukuku danışmanlığı hizmetimizle, tüketici hukuku ile ilgili tüm konularda size yardımcı oluyoruz.</p>
+      
+      <p>İzmir tüketici hukuku avukatı olarak, tüketici hukuku konularında deneyimli ekibimizle, tüketicilerin haklarını koruyarak adil çözümler üretiyoruz.</p>
+    `,
+    seoKeywords: ["tüketici hukuku avukatı izmir", "tüketici hakları", "ayıplı mal", "garanti uyuşmazlığı", "taksitli satış", "mesafeli satış", "tüketici hakem heyeti", "tüketici hukuku avukatı"]
+  },
+  "vergi-hukuku": {
+    title: "Vergi Hukukundan Kaynaklanan Uyuşmazlıklar",
+    icon: "💰",
+    description: "İzmir vergi hukuku avukatı. Vergi uyuşmazlıkları, vergi itirazları, vergi cezaları, vergi davaları ve vergi hukukundan kaynaklanan uyuşmazlıklar.",
+    content: `
+      <p>Vergi hukuku, vergi yükümlülükleri ve vergi uyuşmazlıklarını düzenleyen hukuk dalıdır. İzmir'de vergi hukuku avukatı olarak, vergi uyuşmazlıkları, vergi itirazları, vergi cezaları, vergi davaları ve vergi hukukundan kaynaklanan tüm uyuşmazlıklarda profesyonel hukuki destek sunuyoruz.</p>
+      
+      <p>Vergi itirazları ve vergi itiraz süreçleri, vergi idaresinin yaptığı işlemlere karşı başvuru yollarından biridir. Vergi hukuku avukatı olarak, vergi itirazlarında müvekkillerimizin haklarını koruyoruz. Vergi itiraz süreçlerinde, vergi idaresinin yaptığı işlemlerin hukuka uygunluğunu değerlendirerek, müvekkillerimizin haklarını koruyoruz.</p>
+      
+      <p>Vergi cezaları ve vergi cezası itirazları, vergi yükümlülüklerinin yerine getirilmemesi durumunda ortaya çıkar. Vergi hukuku avukatı olarak, vergi cezalarına itiraz süreçlerinde müvekkillerimizin haklarını koruyoruz. Vergi cezası indirimi ve vergi cezası iptali gibi konularda profesyonel destek sağlıyoruz.</p>
+      
+      <p>Vergi davaları ve vergi mahkemeleri, vergi uyuşmazlıklarının çözümü için önemli başvuru yollarıdır. Vergi hukuku avukatı olarak, vergi davalarında müvekkillerimizin haklarını koruyoruz. Vergi davalarında, vergi idaresinin yaptığı işlemlerin hukuka uygunluğunu değerlendirerek, müvekkillerimizin haklarını koruyoruz.</p>
+      
+      <p>Vergi planlaması ve vergi danışmanlığı, vergi yükümlülüklerinin en uygun şekilde yerine getirilmesi için önemlidir. Vergi hukuku avukatı olarak, vergi planlaması ve vergi danışmanlığı hizmetleri sunuyoruz. Vergi hukuku danışmanlığı hizmetimizle, vergi hukuku ile ilgili tüm konularda size yardımcı oluyoruz.</p>
+      
+      <p>İzmir vergi hukuku avukatı olarak, vergi hukuku konularında deneyimli ekibimizle, vergi uyuşmazlıklarının çözümünden vergi planlamasına kadar tüm konularda yanınızdayız.</p>
+    `,
+    seoKeywords: ["vergi hukuku avukatı izmir", "vergi itirazı", "vergi cezası", "vergi davası", "vergi planlaması", "vergi danışmanlığı", "vergi mahkemesi", "vergi hukuku avukatı"]
+  },
+  "sigorta-hukuku": {
+    title: "Sigorta Hukukundan Kaynaklanan Uyuşmazlıklar",
+    icon: "🛡️",
+    description: "İzmir sigorta hukuku avukatı. Sigorta poliçeleri, hasar tazminat davaları, sigorta şirketleri ile uyuşmazlıklar, trafik kazaları ve sigorta hukukundan kaynaklanan uyuşmazlıklar.",
+    content: `
+      <p>Sigorta hukuku, sigorta sözleşmeleri ve sigorta uyuşmazlıklarını düzenleyen hukuk dalıdır. İzmir'de sigorta hukuku avukatı olarak, sigorta poliçeleri, hasar tazminat davaları, sigorta şirketleri ile uyuşmazlıklar, trafik kazaları ve sigorta hukukundan kaynaklanan tüm uyuşmazlıklarda profesyonel hukuki destek sunuyoruz.</p>
+      
+      <p>Sigorta poliçeleri ve sigorta sözleşmeleri, sigorta hukukunun temelini oluşturur. Sigorta hukuku avukatı olarak, sigorta poliçelerinin hazırlanması, incelenmesi ve uyuşmazlıkların çözümünde müvekkillerimizin haklarını koruyoruz. Hayat sigortası, kasko sigortası, trafik sigortası, sağlık sigortası gibi farklı sigorta türlerinde profesyonel destek sağlıyoruz.</p>
+      
+      <p>Hasar tazminat davaları, sigorta şirketlerinin hasar ödemelerini reddetmesi veya yetersiz ödeme yapması durumunda açılan davalardır. Sigorta hukuku avukatı olarak, hasar tazminat davalarında müvekkillerimizin haklarını koruyoruz. Hasar tazminat davalarında, sigorta şirketinin yükümlülüklerini ve sigortalının haklarını değerlendirerek, adil bir tazminat alınmasını sağlıyoruz.</p>
+      
+      <p>Trafik kazaları ve trafik sigortası uyuşmazlıkları, sigorta hukukunun önemli konularındandır. Sigorta hukuku avukatı olarak, trafik kazalarında müvekkillerimizin haklarını koruyoruz. Trafik kazalarında, kasko sigortası, trafik sigortası ve mali sorumluluk sigortası gibi konularda profesyonel destek sağlıyoruz.</p>
+      
+      <p>Sigorta şirketleri ile uyuşmazlıklar, sigorta sözleşmelerinden kaynaklanan uyuşmazlıkları içerir. Sigorta hukuku avukatı olarak, sigorta şirketleri ile uyuşmazlıkların çözümünde müvekkillerimizin haklarını koruyoruz. Sigorta hukuku danışmanlığı hizmetimizle, sigorta hukuku ile ilgili tüm konularda size yardımcı oluyoruz.</p>
+      
+      <p>İzmir sigorta hukuku avukatı olarak, sigorta hukuku konularında deneyimli ekibimizle, sigorta poliçelerinden hasar tazminat davalarına kadar tüm konularda yanınızdayız.</p>
+    `,
+    seoKeywords: ["sigorta hukuku avukatı izmir", "sigorta poliçesi", "hasar tazminat davası", "trafik kazası", "kasko sigortası", "trafik sigortası", "sigorta şirketi uyuşmazlığı", "sigorta hukuku avukatı"]
+  },
+  "is-hukuku": {
+    title: "İş Hukuku Uygulamalarından Kaynaklanan Uyuşmazlıklar",
+    icon: "🛡️",
+    description: "İzmir iş avukatı. İşe iade davaları, kıdem tazminatı, iş kazaları ve işçi alacakları davalarında uzman hukuki destek. Fazla mesai davaları.",
+    content: `
+      <div class="space-y-6">
+        <div>
+          <h2 class="text-2xl font-bold text-cyan-900 mb-4">İş Hukuku Uygulamalarından Kaynaklanan Uyuşmazlıklar</h2>
+          <p class="mb-4">İş hukuku, çalışanların haklarını korumak ve işveren-işçi ilişkilerini düzenlemek için kritik öneme sahiptir. İzmir'de iş avukatı olarak, hem işçilerin hem de işverenlerin haklarını korumak için kapsamlı hukuki destek sunuyoruz. İş hukuku alanında 25 yılı aşkın deneyimimizle, işe iade davaları, kıdem tazminatı, iş kazaları, fazla mesai ve tüm işçi alacakları davalarında yanınızdayız.</p>
+        </div>
+        
+        <div>
+          <h3 class="text-xl font-bold text-cyan-800 mb-3">İşe İade Davaları</h3>
+          <p class="mb-3">Haksız fesih durumlarında işçinin işe geri dönmesi için açılan işe iade davaları, iş hukukunun en önemli konularından biridir. İş avukatı olarak, iş sözleşmesinin haksız feshi durumunda müvekkillerimizin işe iade edilmesi için güçlü bir savunma yürütüyoruz. İşe iade davalarında, fesih nedeninin geçersizliğini kanıtlayarak, işçinin işe geri dönmesini ve fesih tarihinden itibaren ücret alacağının ödenmesini sağlıyoruz.</p>
+          <p>İşe iade davalarında, fesih nedeninin hukuka uygun olup olmadığı, işçinin performansı, işverenin fesih prosedürü ve işçinin hakları göz önünde bulundurulur. İş avukatı olarak, işe iade davalarında detaylı bir analiz yaparak, müvekkillerimizin haklarını en iyi şekilde koruyoruz.</p>
+        </div>
+        
+        <div>
+          <h3 class="text-xl font-bold text-cyan-800 mb-3">Kıdem ve İhbar Tazminatı</h3>
+          <p class="mb-3">Kıdem tazminatı, işçinin iş sözleşmesinin feshi durumunda, çalıştığı süreye göre hesaplanan ve ödenen tazminattır. İhbar tazminatı ise, iş sözleşmesinin feshi durumunda, işçiye önceden bildirim yapılmaması halinde ödenen tazminattır. İş avukatı olarak, kıdem ve ihbar tazminatı hesaplama işlemlerinde müvekkillerimizin haklarını koruyoruz.</p>
+          <p>Kıdem tazminatı hesaplama, işçinin son brüt ücreti, çalıştığı süre ve tazminat oranına göre yapılır. İş avukatı olarak, kıdem tazminatı hesaplama sürecinde, işçinin tüm haklarını göz önünde bulundurarak, adil bir hesaplama yapılmasını sağlıyoruz. İhbar tazminatı hesaplama da benzer şekilde, işçinin son brüt ücreti ve çalıştığı süreye göre yapılır.</p>
+        </div>
+        
+        <div>
+          <h3 class="text-xl font-bold text-cyan-800 mb-3">İş Kazası ve Meslek Hastalığı</h3>
+          <p class="mb-3">İş kazası ve meslek hastalığı durumlarında, işçinin haklarını korumak için güçlü bir hukuki destek gereklidir. İş avukatı olarak, iş kazası ve meslek hastalığı davalarında müvekkillerimizin haklarını koruyoruz. İş kazası durumunda, işçinin tedavi masrafları, geçici iş göremezlik ödeneği, sürekli iş göremezlik ödeneği ve ölüm halinde yakınlarına ödenecek tazminatlar gibi konularda profesyonel destek sağlıyoruz.</p>
+          <p>Meslek hastalığı durumunda, işçinin mesleki faaliyetleri nedeniyle ortaya çıkan hastalıkların tespiti ve tazminat alınması için gerekli hukuki süreçleri yürütüyoruz. İş avukatı olarak, iş kazası ve meslek hastalığı davalarında, işçinin tüm haklarını koruyarak, adil bir tazminat alınmasını sağlıyoruz.</p>
+        </div>
+        
+        <div>
+          <h3 class="text-xl font-bold text-cyan-800 mb-3">Fazla Mesai ve Ücret Alacakları</h3>
+          <p class="mb-3">Fazla mesai, işçinin haftalık çalışma süresini aşan çalışmaları için ödenen ücrettir. İş avukatı olarak, fazla mesai davalarında müvekkillerimizin haklarını koruyoruz. Fazla mesai hesaplama, işçinin normal ücreti, fazla mesai oranı ve çalıştığı süreye göre yapılır.</p>
+          <p>Ücret alacakları davaları, işçinin çalıştığı süre için ödenmemiş ücretlerinin tahsil edilmesi için açılan davalardır. İş avukatı olarak, ücret alacakları davalarında müvekkillerimizin haklarını koruyoruz. Ücret alacakları davalarında, işçinin çalıştığı süre, ücret miktarı ve ödeme durumu gibi konular göz önünde bulundurulur.</p>
+        </div>
+        
+        <div>
+          <h3 class="text-xl font-bold text-cyan-800 mb-3">İş Sözleşmesi Fesih İşlemleri</h3>
+          <p class="mb-3">İş sözleşmesi fesih işlemleri, işçi ve işveren arasındaki iş ilişkisinin sona erdirilmesi için yapılan işlemlerdir. İş avukatı olarak, iş sözleşmesi fesih işlemlerinde müvekkillerimizin haklarını koruyoruz. İş sözleşmesi feshi, haklı fesih, haksız fesih veya anlaşmalı fesih şeklinde gerçekleşebilir.</p>
+          <p>Haklı fesih durumunda, işçi veya işveren, iş sözleşmesini derhal feshedebilir. Haksız fesih durumunda ise, işçi işe iade davası açabilir veya tazminat talep edebilir. İş avukatı olarak, iş sözleşmesi fesih işlemlerinde, müvekkillerimizin haklarını koruyarak, en uygun çözümü buluyoruz.</p>
+        </div>
+        
+        <div>
+          <h3 class="text-xl font-bold text-cyan-800 mb-3">Toplu İş Sözleşmesi ve Sendika Hakları</h3>
+          <p class="mb-3">Toplu iş sözleşmesi, işveren veya işveren sendikası ile işçi sendikası arasında yapılan ve işçilerin çalışma koşullarını düzenleyen sözleşmedir. İş avukatı olarak, toplu iş sözleşmesi müzakerelerinde ve sendika hakları konularında profesyonel destek sağlıyoruz.</p>
+          <p>Sendika hakları, çalışanların örgütlenme, toplu pazarlık ve grev haklarını içerir. İş avukatı olarak, sendika hakları konularında müvekkillerimizin haklarını koruyoruz. Toplu iş sözleşmesi ve sendika hakları konularında, işçilerin ve işverenlerin haklarını dengeli bir şekilde koruyarak, adil bir çözüm buluyoruz.</p>
+        </div>
+        
+        <div>
+          <h3 class="text-xl font-bold text-cyan-800 mb-3">İş Hukuku Danışmanlığı</h3>
+          <p class="mb-3">İş hukuku danışmanlığı hizmetimizle, iş hukuku ile ilgili tüm konularda size yardımcı oluyoruz. İş sözleşmesi hazırlama, işçi hakları, işveren yükümlülükleri, iş güvenliği ve iş sağlığı konularında profesyonel danışmanlık hizmeti sunuyoruz.</p>
+          <p>İzmir iş avukatı olarak, iş hukuku konularında deneyimli ekibimizle, hem işçilerin hem de işverenlerin haklarını koruyarak, adil ve hukuka uygun çözümler üretiyoruz. İş hukuku alanındaki tüm uyuşmazlıklarınızda yanınızdayız.</p>
+        </div>
+      </div>
+    `,
+    seoKeywords: ["iş avukatı izmir", "işe iade davası", "kıdem tazminatı", "iş kazası", "fazla mesai", "işçi alacakları", "ihbar tazminatı", "iş avukatı", "meslek hastalığı", "toplu iş sözleşmesi", "sendika hakları"]
   }
 };
 

@@ -123,7 +123,7 @@ export default function Services() {
             return (
               <div
                 key={index}
-                className={`group bg-white rounded-lg sm:rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-1 min-w-0 ${widthClass} ${
+                className={`group bg-white rounded-lg sm:rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-1 min-w-0 flex flex-col ${widthClass} ${
                   isVisible 
                     ? "opacity-100 translate-y-0 scale-100" 
                     : "opacity-0 translate-y-10 scale-95"
@@ -139,7 +139,7 @@ export default function Services() {
                 </div>
 
                 {/* Content */}
-                <div className="p-2 sm:p-4 flex flex-col flex-grow">
+                <div className="p-2 sm:p-4 flex flex-col h-full">
                   <h3 className="text-xs sm:text-lg font-bold text-cyan-900 mb-1 sm:mb-2 group-hover:text-cyan-600 transition-colors break-words leading-tight">
                     {service.title}
                   </h3>
