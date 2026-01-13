@@ -1,0 +1,9 @@
+# robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap
+Sitemap: https://www.ctiavukatlik.com/sitemap.xml
+
