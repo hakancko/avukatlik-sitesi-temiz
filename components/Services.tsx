@@ -1,6 +1,6 @@
 "use client";
 
-import { Briefcase, Home, Heart, Users as UsersIcon, Gavel, Building, Shield, Scale, FileText, ShoppingCart, Calculator, ArrowRight } from "lucide-react";
+import { Briefcase, Home, Heart, Users as UsersIcon, Gavel, Building, Shield, Scale, FileText, ShoppingCart, Calculator, Umbrella, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { useScrollAnimation } from "@/lib/useScrollAnimation";
 
@@ -83,6 +83,13 @@ export default function Services() {
       description: "Vergi uyuşmazlıkları, vergi itirazları, vergi cezaları, vergi davaları ve vergi hukukundan kaynaklanan uyuşmazlıklar.",
       color: "from-cyan-600 to-blue-600",
       slug: "vergi-hukuku"
+    },
+    {
+      icon: Umbrella,
+      title: "Sigorta Hukukundan Kaynaklanan Uyuşmazlıklar",
+      description: "Sigorta poliçeleri, hasar tazminat davaları, sigorta şirketleri ile uyuşmazlıklar, hayat sigortası, kasko, trafik sigortası ve sigorta hukukundan kaynaklanan uyuşmazlıklar.",
+      color: "from-yellow-500 to-orange-500",
+      slug: "sigorta-hukuku"
     },
   ];
 

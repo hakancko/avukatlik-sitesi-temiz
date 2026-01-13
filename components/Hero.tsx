@@ -17,6 +17,20 @@ export default function Hero() {
         }} />
       </div>
 
+      {/* 1998'den beri - İki logonun kesişim noktasında, sol tarafta */}
+      <div className="absolute left-4 sm:left-6 md:left-8 lg:left-12 top-24 sm:top-28 md:top-32 z-20">
+        <p 
+          className="text-white text-sm sm:text-base font-medium whitespace-nowrap"
+          style={{
+            opacity: 0,
+            transform: 'translateX(100px)',
+            animation: 'fadeInSlide 1.2s ease-out 0.8s forwards'
+          }}
+        >
+          1998&apos;den beri...
+        </p>
+      </div>
+
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-20">
         <div className="max-w-4xl mx-auto text-center">
           {/* Quote Section */}
@@ -33,9 +47,12 @@ export default function Hero() {
                 />
               </div>
             </div>
-            <blockquote className="text-base sm:text-lg md:text-xl lg:text-2xl font-serif font-bold text-white leading-relaxed max-w-3xl mx-auto mb-4 sm:mb-6">
+            <blockquote className="text-base sm:text-lg md:text-xl lg:text-2xl font-serif font-bold text-white leading-relaxed max-w-3xl mx-auto mb-3 sm:mb-4">
               &quot;Avukatlar topluluğu en mükemmel, en ziyade itibara lâyık öyle şerefli bir insanlar birliğidir ki mutat doğruluğu az görür ve tatbikatta kusursuzluk derecesine kadar varırlar. Eğer fazilet sosyete tarafından kovulsaydı, son sığınağını onların yanında bulurdu.&quot;
             </blockquote>
+            <p className="text-base sm:text-lg text-white font-semibold mb-3 sm:mb-4">
+              — Savcı Bellart
+            </p>
             <p className="text-sm sm:text-base text-gray-200 italic">
               İzmir&apos;de profesyonel avukatlık ve hukuk danışmanlığı hizmetleri
             </p>

@@ -57,6 +57,7 @@ export default function Footer() {
     { name: "Miras Hukuku", href: "/hizmetler/miras-hukuku" },
     { name: "Tüketici Hukuku", href: "/hizmetler/tuketici-hukuku" },
     { name: "Vergi Hukuku", href: "/hizmetler/vergi-hukuku" },
+    { name: "Sigorta Hukuku", href: "/hizmetler/sigorta-hukuku" },
   ];
 
   return (

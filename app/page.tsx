@@ -12,7 +12,7 @@ export default function Home() {
     "@type": "LegalService",
     "name": "CTİ Avukatlık & Hukuk Danışmanlığı",
     "alternateName": "Canbedir & Tuman & İnceoğulları Avukatlık Bürosu",
-    "description": "İzmir'de 25+ yıllık deneyimle profesyonel avukatlık ve hukuk danışmanlığı hizmetleri. Şirketler, gayrimenkul, sağlık, aile, ceza, idare, iş, icra-iflas, miras, tüketici ve vergi hukuku alanlarında uzman kadro.",
+    "description": "İzmir'de 25+ yıllık deneyimle profesyonel avukatlık ve hukuk danışmanlığı hizmetleri. Şirketler, gayrimenkul, sağlık, aile, ceza, idare, iş, icra-iflas, miras, tüketici, vergi ve sigorta hukuku alanlarında uzman kadro.",
     "url": "https://www.ctiavukatlik.com",
     "logo": "https://www.ctiavukatlik.com/photo/logo.png",
     "image": "https://www.ctiavukatlik.com/photo/logo.png",
@@ -51,7 +51,8 @@ export default function Home() {
       "İcra ve İflas Hukuku",
       "Miras Hukuku",
       "Tüketici Hukuku",
-      "Vergi Hukuku"
+      "Vergi Hukuku",
+      "Sigorta Hukuku"
     ],
     "aggregateRating": {
       "@type": "AggregateRating",

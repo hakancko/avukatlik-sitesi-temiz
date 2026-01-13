@@ -74,3 +74,37 @@ body {
     background-position: 0% 50%;
   }
 }
+
+/* Fade in slide animation */
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(120px);
+  }
+}
+
+@keyframes fadeInSlideSm {
+  0% {
+    opacity: 0;
+    transform: translateX(120px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(140px);
+  }
+}
+
+@keyframes fadeInSlideMd {
+  0% {
+    opacity: 0;
+    transform: translateX(140px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(160px);
+  }
+}

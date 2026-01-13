@@ -1,16 +1,10 @@
 "use client";
 
-import { Award, Users, Scale, BookOpen } from "lucide-react";
+import { Scale } from "lucide-react";
 import { useScrollAnimation } from "@/lib/useScrollAnimation";
 
 export default function About() {
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.05, rootMargin: "-50px 0px" });
-  const stats = [
-    { icon: Award, value: "25+", label: "Yıllık Deneyim" },
-    { icon: Users, value: "2000+", label: "Memnun Müvekkil" },
-    { icon: Scale, value: "1000+", label: "Başarılı Dava" },
-    { icon: BookOpen, value: "11+", label: "Uzmanlık Alanı" },
-  ];
 
   return (
     <section id="about" className="py-12 sm:py-20 bg-white">
@@ -36,7 +30,7 @@ export default function About() {
 
           {/* Content */}
           <div 
-            className={`grid md:grid-cols-2 gap-8 md:gap-12 items-start mb-12 sm:mb-16 transition-all duration-1000 delay-200 ${
+            className={`max-w-4xl mx-auto transition-all duration-1000 delay-200 ${
               isVisible 
                 ? "opacity-100 translate-y-0" 
                 : "opacity-0 translate-y-10"
@@ -63,31 +57,6 @@ export default function About() {
                   &quot;Avukatlar tarih boyunca köle kullanmadılar ama hiçbir zaman efendileri de olmadı!&quot;
                 </p>
               </div>
-            </div>
-
-            {/* Stats Grid */}
-            <div className="grid grid-cols-2 gap-4 sm:gap-6">
-              {stats.map((stat, index) => {
-                const Icon = stat.icon;
-                return (
-                  <div
-                    key={index}
-                    className={`bg-gradient-to-br from-cyan-500 to-teal-500 p-6 rounded-xl text-center text-white shadow-lg hover:shadow-xl transition-all hover:scale-105 ${
-                      isVisible 
-                        ? "opacity-100 translate-y-0 scale-100" 
-                        : "opacity-0 translate-y-10 scale-90"
-                    }`}
-                    style={{ 
-                      transitionDelay: `${400 + index * 100}ms`,
-                      transitionDuration: '600ms'
-                    }}
-                  >
-                    <Icon className="w-10 h-10 mx-auto mb-3" />
-                    <div className="text-3xl font-bold mb-2">{stat.value}</div>
-                    <div className="text-sm text-white/90">{stat.label}</div>
-                  </div>
-                );
-              })}
             </div>
           </div>
         </div>

@@ -305,6 +305,7 @@ export default function Contact() {
                     <option>Miras Hukuku</option>
                     <option>Tüketici Hukuku</option>
                     <option>Vergi Hukuku</option>
+                    <option>Sigorta Hukuku</option>
                     <option>Diğer</option>
                   </select>
                 </div>
