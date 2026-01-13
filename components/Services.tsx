@@ -9,77 +9,77 @@ export default function Services() {
   const services = [
     {
       icon: Briefcase,
-      title: "Şirketler Hukuku",
+      title: "Şirketler Hukuku Uygulamalarından Kaynaklanan Uyuşmazlıklar",
       description: "Şirket kuruluşu, ortaklık anlaşmaları, şirket birleşmeleri, devir işlemleri ve şirketler hukukundan kaynaklanan uyuşmazlıklar.",
       color: "from-emerald-600 to-teal-600",
       slug: "sirketler-hukuku"
     },
     {
       icon: Home,
-      title: "Gayrimenkul Hukuku",
+      title: "Gayrimenkul Uyuşmazlıkları",
       description: "Tapu işlemleri, kira davaları, tahliye, kat mülkiyeti, kamulaştırma ve gayrimenkul uyuşmazlıkları.",
       color: "from-blue-600 to-cyan-600",
       slug: "gayrimenkul-hukuku"
     },
     {
       icon: Heart,
-      title: "Sağlık Hukuku",
+      title: "Sağlık Hukukundan Kaynaklanan Uyuşmazlıklar",
       description: "Tıbbi malpraktis davaları, hasta hakları, sağlık kuruluşları ile ilgili uyuşmazlıklar ve sağlık hukuku danışmanlığı.",
       color: "from-rose-500 to-pink-500",
       slug: "saglik-hukuku"
     },
     {
       icon: UsersIcon,
-      title: "Aile Hukuku",
+      title: "Aile Hukuku Alanındaki Uyuşmazlıklar",
       description: "Boşanma, velayet, nafaka, mal rejimi, soybağı, evlat edinme ve aile hukukundan kaynaklanan uyuşmazlıklar.",
       color: "from-purple-600 to-pink-600",
       slug: "aile-hukuku"
     },
     {
       icon: Gavel,
-      title: "Ceza Hukuku",
+      title: "Ceza Hukuku Alanındaki Uyuşmazlıklar",
       description: "Ceza davalarında savunma, suç duyuruları, beraat davaları ve ceza hukuku alanındaki uyuşmazlıklar.",
       color: "from-red-600 to-orange-600",
       slug: "ceza-hukuku"
     },
     {
       icon: Building,
-      title: "İdare Hukuku",
+      title: "İdare Hukukunda İptal ve Tam Yargı Davaları",
       description: "İptal davaları, tam yargı davaları, belediye işlemleri, imar davaları ve idare hukuku uyuşmazlıkları.",
       color: "from-slate-600 to-gray-600",
       slug: "idare-hukuku"
     },
     {
       icon: Shield,
-      title: "İş Hukuku",
+      title: "İş Hukuku Uygulamalarından Kaynaklanan Uyuşmazlıklar",
       description: "İşe iade davaları, kıdem tazminatı, iş kazaları, işçi alacakları ve işçi-işveren ilişkisinden kaynaklanan uyuşmazlıklar.",
       color: "from-indigo-600 to-blue-600",
       slug: "is-hukuku"
     },
     {
       icon: Scale,
-      title: "İcra ve İflas Hukuku",
+      title: "İcra ve İflas Hukuku Alanındaki Uyuşmazlıkları",
       description: "İcra takipleri, iflas davaları, konkordato, haciz işlemleri ve icra-iflas hukuku alanındaki uyuşmazlıklar.",
       color: "from-amber-600 to-orange-600",
       slug: "icra-iflas-hukuku"
     },
     {
       icon: FileText,
-      title: "Miras Hukuku",
+      title: "Miras Hukuku Alanındaki Uyuşmazlıklar",
       description: "Miras taksimi, veraset ilamı, vasiyetname düzenleme, mirasçılık belgesi ve miras hukuku alanındaki uyuşmazlıklar.",
       color: "from-violet-600 to-purple-600",
       slug: "miras-hukuku"
     },
     {
       icon: ShoppingCart,
-      title: "Tüketici Hukuku",
+      title: "Tüketici Hukuku Alanındaki Uyuşmazlıklar",
       description: "Tüketici hakları, ayıplı mal, garanti, taksitli satış, mesafeli satış ve tüketici hukukundan kaynaklanan uyuşmazlıklar.",
       color: "from-green-600 to-emerald-600",
       slug: "tuketici-hukuku"
     },
     {
       icon: Calculator,
-      title: "Vergi Hukuku",
+      title: "Vergi Hukukundan Kaynaklanan Uyuşmazlıklar",
       description: "Vergi uyuşmazlıkları, vergi itirazları, vergi cezaları, vergi davaları ve vergi hukukundan kaynaklanan uyuşmazlıklar.",
       color: "from-cyan-600 to-blue-600",
       slug: "vergi-hukuku"
